@@ -2,6 +2,10 @@
 !(function($) {
   "use strict";
 
+  $(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+  });
+  
   // Nav Menu
   $(document).on('click', '.nav-menu a, .mobile-nav a', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {

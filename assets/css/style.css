@@ -38,9 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
@@ -129,9 +127,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
   margin-top: 35px;
@@ -266,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Header Top */
 #header.header-top {
   height: 80px;
-  position: fixed;
+  position: relative; /*absolute*/
   left: 0;
   top: 0;
   right: 0;
@@ -300,19 +295,17 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+
 section {
   overflow: hidden;
   position: relative; 
   width: 100%;
-  top: 100px; 
+  top: 10px; 
   bottom: 100%;
   opacity: 1; 
   transition: ease-in-out 0.4s;
   z-index: 2;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 section.section-show {

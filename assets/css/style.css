@@ -300,7 +300,7 @@ section {
   overflow: hidden;
   position: relative; 
   width: 100%;
-  top: 10px; 
+  top: 5px; 
   bottom: 100%;
   opacity: 1; 
   transition: ease-in-out 0.4s;

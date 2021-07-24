@@ -9,7 +9,7 @@
   // counter
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
-    time: 1000
+    time: 1200
   });
 
   // skills
@@ -18,7 +18,7 @@
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
     });
   }, {
-    offset: '80%'
+    offset: '75%'
   });
 
 

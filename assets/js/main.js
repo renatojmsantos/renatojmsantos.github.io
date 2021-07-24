@@ -18,7 +18,7 @@
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
     });
   }, {
-    offset: '75%'
+    offset: '80%'
   });
 
 
